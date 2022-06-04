@@ -1,0 +1,28 @@
+DECLARE //
+
+CREATE st_INSERT (
+
+IN st_NOMsp VARCHAR(80),
+
+IN st_EMsp VARCHAR(100),
+
+IN st_USERNAMEsp CHAR(40),
+
+IN st_PASSWORDsp CHAR(40)
+
+)
+
+BEGIN
+
+INSERT INTO student SET st_NOM = st_NOMsp,
+
+			st_EM = st_EMsp,
+
+			st_USERNAME = st_USERNAMEsp,
+
+			st_PASSWORD = st_PASSWORDsp;
+
+
+END;
+
+//
